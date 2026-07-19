@@ -1,0 +1,8 @@
+{
+  "name": "spacchetti-react-basic-starter",
+  "set": "psc-0.12.1-20181218",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "react-basic", "affjax", "simple-json", "test-unit"
+  ]
+}

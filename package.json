@@ -1,0 +1,28 @@
+{
+  "name": "react-basic-starter",
+  "version": "1.0.0",
+  "description": "An example react-basic project",
+  "repository": "lumihq/react-basic-starter",
+  "dependencies": {
+    "react": "16.6.1",
+    "react-dom": "16.6.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "concurrently": "^4.1.0",
+    "psc-package": "3.0.1",
+    "pscid": "2.4.0",
+    "pulp": "12.3.0",
+    "purescript": "0.12.1"
+  },
+  "scripts": {
+    "start:parcel": "parcel ./src/index.html",
+    "start:build": "pulp -w build",
+    "start": "concurrently \"yarn start:parcel\" \"yarn start:build\"",
+    "purs:install": "psc-package install",
+    "purs:build": "psc-package build",
+    "build": "parcel build ./src/index.html",
+    "pscid": "pscid src/Main.purs",
+    "test": "pulp test"
+  }
+}
