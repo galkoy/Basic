@@ -1,6 +1,4 @@
-# Another Purescript React Basic Starter
-
-[![Build Status](https://travis-ci.org/danieljharvey/another-react-basic-starter.svg?branch=master)](https://travis-ci.org/danieljharvey/another-react-basic-starter)
+# React Basic Starter
 
 ### What is it?
 
